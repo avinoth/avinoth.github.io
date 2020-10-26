@@ -39,10 +39,20 @@
 
       .right {
         width: 25%;
-        background: #fff7b1;
-        padding-top: 15px;
-        padding-left: 15px;
         float: right;
+      }
+
+      .note {
+        background: #fff7b1;
+        padding: 15px;
+      }
+
+      .note p {
+        margin-bottom: 20px;
+      }
+
+      em {
+        font-size: 14px;
       }
 
       @media only screen and (max-width: 767px) {
@@ -55,9 +65,7 @@
 
   <body>
     <div class="container">
-      <h2> Hello there, stranger </h2>
-      <h3> Welcome to my tiny little website.. </h3>
-
+      <h2> You've reached what you were trying to reach (hopefully) </h2>
 
     <div class="row">
       <div class="left column">
@@ -66,13 +74,13 @@
             I'm Vinoth.
           </p>
           <p> I'm a Software consultant, Indie hacker, polyglot developer.</p>
-            Primarily I create stuff with Ruby but I love to try my hands on new programming languages. <br /><br />
+            Primarily I create stuff with <a href="https://www.ruby-lang.org/">Ruby</a> but I love to try my hands on new programming languages.<br /><br />
             I've built serious projects in golang, nodejs and some.. <br />
             Have worked with frontend frameworks such as angular, react, vue and some.. <br />
             Hosted, Architected and scaled applications on AWS, Heroku, GCP, Azure and some.. <br />
           </p>
 
-          <h4>Here's Few links for you..</h4>
+          <h4>Here's Few links for you -</h4>
           <ul>
             <li> Blog - <a href="http://blog.avinoth.com/" target="_blank"> http://blog.avinoth.com </a> </li>
             <!-- <li> Projects - <a href="http://projects.avinoth.com/" target="_blank"> http://projects.avinoth.com </a> </li> -->
@@ -85,19 +93,27 @@
       </div>
 
       <div class="right column">
-        <h4>Products launched:</h4>
-        <p>
-          <a href="https://www.trackiem.com/">Trackiem</a> <br /> Your All-in-one Tracker.
-        </p>
-        <p>
-          <a href="https://finesseapp.co/">Finesseapp</a> <br /> Automate your cloud.
-        </p>
-        <p>
-          <a href="https://thebeginnings.substack.com/">TheBeginnings Newsletter</a><br /> Get to know humble beginnings of famous companies.
-        </p>
-        <p>
-          <a href="https://thesenewsletters.com/">These Newsletters</a><br />Discover your next newsletter.
-        </p>
+        <div class="note">
+          <h4>Indie Projects:</h4>
+          <p>
+            <a href="https://www.rosterbird.com/">RosterBird</a> <br /> Dead simple Roster scheduling for Slack.
+          </p>
+          <p>
+            <a href="https://www.trackiem.com/">Trackiem</a> <br /> Your All-in-one Tracker.
+          </p>
+          <p>
+            <a href="https://finesseapp.co/">Finesseapp</a> <br /> Automate your cloud.
+          </p>
+          <p>
+            <a href="https://thesenewsletters.com/">These Newsletters</a><br />Discover your next newsletter.
+          </p>
+
+          <p>
+            <em>Projects involved at consulting capacity can be found in <a href="https://www.dropbox.com/s/vetel4fvxiyk9kk/Resume.pdf?dl=0" target="_blank">my Resume</a></em>
+          </p>
+        </div>
+
+        <p class="note">If you're not a Nigerian prince, feel free to contact me for any inquiries / assistance at <a href="mailto:mail@avinoth.com">mail@avinoth.com</a></p>
       </div>
     </div>
   </div>
